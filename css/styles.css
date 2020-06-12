@@ -22,6 +22,11 @@ html {
       font-weight: 700 !important;
       font-size: 40px !important;
       color: #505050 !important; }
+    html body h3 {
+      font-family: 'Inter', sans-serif !important;
+      font-weight: 700 !important;
+      font-size: 30px !important;
+      color: #505050 !important; }
     html body p {
       font-family: 'Inter', sans-serif !important;
       color: #505050 !important;
@@ -32,7 +37,8 @@ html {
         color: #505050; }
       html body nav.site-header {
         margin-left: 0px;
-        margin-right: 0px; }
+        margin-right: 0px;
+        padding-left: 30px; }
     html body .hero-container {
       background-image: linear-gradient(to right, #5ECDC6, #FFE2E8);
       margin-left: 0px;
@@ -108,6 +114,47 @@ html {
         font-family: 'Inter', sans-serif !important;
         font-weight: 400;
         font-size: 14px; }
+    html body .hero-work {
+      background-image: linear-gradient(to right, #FFE2E8, #5ECDC6);
+      margin-left: 0px;
+      margin-right: 0px; }
+    html body .cards {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px; }
+    html body .case {
+      background-image: linear-gradient(to right, #DFF6E8, #FFFFFF);
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px; }
+    html body .week2 {
+      background-image: linear-gradient(to right, #FFFFFF, #FFE2E8); }
+    html body .week4 {
+      background-image: linear-gradient(to right, #D9E3FF, #FFFFFF); }
+    html body .week5 {
+      background-image: linear-gradient(to right, #FFFFFF, #FFF9D9); }
+    html body .week6 {
+      background-image: linear-gradient(to right, #DAFDFF, #FFFFFF); }
+    html body .week7 {
+      background-image: linear-gradient(to right, #FFFFFF, #D2D7D8); }
+    html body .caseimage {
+      border-style: solid;
+      border-radius: 5px;
+      border-color: #505050;
+      border-width: thin; }
+    html body p.casesub {
+      font-size: 15px; }
+    html body .casesub a {
+      font-weight: 400;
+      font-size: 16px;
+      color: #5ECDC6;
+      transition: ease-in-out color .15s; }
+    html body .casesub a:hover {
+      color: #94EEB8;
+      text-decoration: none;
+      border-bottom: 3px solid #94EEB8; }
     html body .site-header {
       background-color: rgba(0, 0, 0, 0);
       -webkit-backdrop-filter: saturate(180%) blur(20px);
