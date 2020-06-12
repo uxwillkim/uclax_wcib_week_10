@@ -44,14 +44,24 @@ body{
 
     border-bottom: 1px solid #505050;
 
+    .logo {
+      padding-left: 30px;
+    }
+
+    .navlinks {
+      padding-right: 0px;
+    }
+
     .topnavlinks {
       color: #505050;
+      margin-right: 15px;
+      margin-left: 15px;
     }
 
     &.site-header {
       margin-left: 0px;
       margin-right: 0px;
-      padding-left: 30px
+      padding-left: 30px;
     }
   }
 

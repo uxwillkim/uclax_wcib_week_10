@@ -33,8 +33,14 @@ html {
       font-weight: 400 !important; }
     html body nav {
       border-bottom: 1px solid #505050; }
+      html body nav .logo {
+        padding-left: 30px; }
+      html body nav .navlinks {
+        padding-right: 0px; }
       html body nav .topnavlinks {
-        color: #505050; }
+        color: #505050;
+        margin-right: 15px;
+        margin-left: 15px; }
       html body nav.site-header {
         margin-left: 0px;
         margin-right: 0px;
