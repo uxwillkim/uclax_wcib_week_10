@@ -30,7 +30,7 @@ html {
       border-bottom: 1px solid #505050; }
       html body nav .topnavlinks {
         color: #505050; }
-      html body nav .site-header {
+      html body nav.site-header {
         margin-left: 0px;
         margin-right: 0px; }
     html body .hero-container {
