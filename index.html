@@ -1,63 +1,131 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 5, Part 1</title>
+  <title>Week 10: Final Project</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
-  <body class="text-center">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">Week 5, Part 1</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-          </nav>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!--Header Navigation Bar-->
+    <nav class="site-header sticky-top py-2 row">
+      <div class="container-fluid .col-sm-6 .col-lg-8 d-inline flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="https://www.uxwillkim.xyz">
+          <img src="images/logo-blue.png" alt="letters wk logo">
+        </a>
+
+        <div class="navlinks container .col-6 .col-lg-4 d-inline flex-column flex-md-row justify-content-right">
+          <a class="py-2 d-none d-md-inline-block topnavlinks" href="https://uxwillkim.xyz/uclax_wcib_week_10/">HOME</a>
+          <a class="py-2 d-none d-md-inline-block topnavlinks" href="https://uxwillkim.xyz/uclax_wcib_week_10/work">WORK</a>
+          <a class="py-2 d-none d-md-inline-block topnavlinks" href="https://uxwillkim.xyz/uclax_wcib_week_10/resume">RESUME</a>
         </div>
-      </header>
+      </div>
+    </nav>
 
-      <main role="main" class="inner cover">
-
-        <h1 class="cover-heading">Number guessing game</h1>
-
-        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
-
-        <div class="form">
-          <div class="form-group">
-            <label for="guessField">Enter a guess:</label>
-            <input type="text" class="form-control guessField" id="guessField" aria-describedby="emailHelp" placeholder="Enter a guess">
-          </div>
-          <input type="submit" value="Submit guess" class="btn btn-primary guessSubmit">
-        </div>
-
-        <div class="resultParas">
-          <p class="guesses"></p>
-          <p class="lastResult"></p>
-          <p class="lowOrHi"></p>
-        </div>
-
-      </main>
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-        </div>
-      </footer>
+    <!--Hero Section-->
+    <div class="hero-container row position-relative overflow-hidden py-3 py-md-5 text-center align-items-center">
+      <div class="headshot">
+        <img src="images/headshot.png" alt="headshot photo" class="headshotimg">
+      </div>
+      <div class="col-6 herotext ol-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">i'm William</h1>
+        <p class="font-weight-normal herosub">a UX researcher, strategist and designer</p>
+      </div>
     </div>
 
-	</body>
+    <!--About Section-->
+    <div class="about-container overflow-hidden d-md-flex flex-md-equal w-100">
+      <div class="px-3 px-md-5 text-left">
+        <div class="abouttext py-5 col-10">
+          <h2 class="abouttitle pb-2">a little bit about me</h2>
+          <p class="aboutsub">A So-Cal native, I am a UX advocate and practitioner, specializing in resarch, strategy and design to help reimagine experiences both large and small.<br><br>
+
+            My formatitive years include a tour of duty in the world of advertising (10+ years), podcast creator and host, legal-tech start-up co-founder, and now as a student of user experience (UX).<br><br>
+
+            I live in sunny Mar Vista, CA with my beautiful family. I love to ride my Public 7-speed bike and learn how to make things with my hands.
+            <br>
+            <br>
+            <span id="wkname">+<br>WK</span></p>
+          </div>
+        </div>
+
+        <div class="pl-md-5 text-center">
+          <div class="row-2 px-0 mr-0">
+            <div class="col px-0"><img src="images/about-img-box1.png" alt="venice beach"></div>
+            <div class="w-100"></div>
+            <div class="col p-0"><img src="images/about-img-box2.png" alt="bicycle"></div>
+          </div>
+        </div>
+      </div>
+
+    <!--Cards Section-->
+    <div class="cards-container d-md-flex flex-md-equal w-100">
+      <!--Work card-->
+      <div class="work-container col-6 text-center w-100 overflow-hidden"><a href="https://uxwillkim.xyz/uclax_wcib_week_10/work">
+        <img src="images/work-img.png" alt="sticky notes and laptop">
+        <div class="lead my-3">
+          <h2 class="leadtitle display-5">+work</h2>
+          <p class="leadsub">a small sample of projects I’ve worked on</p>
+        </div>
+        </a>
+      </div>
+      <!--Resume-card Section-->
+      <div class="resume-container col-6 text-center w-100 overflow-hidden"><a href="https://uxwillkim.xyz/uclax_wcib_week_10/resume">
+        <img src="images/resume-img.png" alt="pen and pad">
+        <div class="lead my-3">
+          <h2 class="leadtitle display-5">+resume</h2>
+          <p class="leadsub">learn more about my work experiences</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <!--Contact Section-->
+    <div class="contact-container w-100 text-center overflow-hidden">
+        <div class="py-5">
+          <h2 class="contacttitle">care to connect?</h2>
+          <a class="contactsub" href="mailto:wkim82@gmail.com">send me an email</a>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <footer class=".col pt-5">
+      <div class="row align-items-center">
+        <div class="col col-md pl-5">
+          <a class="py-2" href="https://uxwillkim.xyz/uclax_wcib_week_10">
+            <img src="images/logo-footer.png" alt="letters wk logo">
+          </a>
+        </div>
+          <div class="more col text-right align-items-center pr-5">
+            <p id="copyright">uxwillkim &copy; 2020</p>
+            <ul class="list-unstyled text-small footer-link">
+            <li><a class="" href="https://uxwillkim.xyz/uclax_wcib_week_10/work">#work</a></li>
+            <li><a class="" href="https://uxwillkim.xyz/uclax_wcib_week_10/resume">#resume</a></li>
+          </ul>
+        </div>
+</div>
+</footer>
+</div>
+</body>
 
 </html>
